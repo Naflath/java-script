@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> java script </title>
+
+</head>
+<body>
+    <script language= "java script">
+        function day()
+        {
+            var x = document.getElementById("text1").value;
+            switch(x)
+            {
+                case 1:
+                document.getElementById.value="sunday";
+                break;
+                case 2:
+                document.getElementById.value="monday";
+                break;
+                case 3:
+                document.getElementById.value="tuesday";
+                break;
+                case 4:
+                document.getElementById.value="wednesday";
+                break;
+                case 5:
+                document.getElementById.value="thursday";
+                break;
+                case 6:
+                document.getElementById.value="friday";
+                break;
+                case 7:
+                document.getElementById.value="saturday";
+                break;
+                default:
+                document.getElementById.value="Enter only 1-7";
+                break;
+            }
+        }
+    </script>
+<center>
+    Enter a number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="first" id="text1" size="25">
+    <p>
+        Day of week &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="first" id="text1" size="25">
+    </p>
+    <input type="button" name="sub" value="show" onclick="day()">
+</center>
+</body>
+</html>
